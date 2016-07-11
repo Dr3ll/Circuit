@@ -1,0 +1,6 @@
+D:\Dropbox\mine\3D Gameprojekt\Circuit\Circuit\CircuitContent\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Dropbox\mine\3D Gameprojekt\3D_GameProject\Circuit\Circuit\Circuit\CircuitContent\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Stein\Documents\Andrei\Game Development\Circuit\Circuit\Circuit\CircuitContent\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Stein\Documents\Andrei\Game Development\Ciruit\Circuit\Circuit\Circuit\CircuitContent\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Dropbox\mine\3D Gameprojekt\Kamera fertig\Circuit\Circuit\Circuit\CircuitContent\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Ben\Documents\My Dropbox\Games and Prototypes\3D Game Project\Circuit\Circuit\Circuit\CircuitContent\obj\x86\Debug\ResolveAssemblyReference.cache

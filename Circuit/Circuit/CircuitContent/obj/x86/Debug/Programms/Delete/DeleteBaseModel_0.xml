@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Graphics="Microsoft.Xna.Framework.Content.Pipeline.Graphics" xmlns:Framework="Microsoft.Xna.Framework">
+  <Asset Type="Graphics:MeshContent">
+    <Name>Pyramid001</Name>
+    <Identity>
+      <SourceFilename>C:\Users\Ben\Documents\My Dropbox\Games and Prototypes\3D Game Project\Circuit\Circuit\Circuit\CircuitContent\Programms\Delete\DeleteBaseModel.fbx</SourceFilename>
+      <SourceTool>FbxImporter</SourceTool>
+    </Identity>
+    <OpaqueData>
+      <Data Key="UDP3DSMAX">MapChannel:1 = UVChannel_1
+</Data>
+      <Data Key="MaxHandle" Type="int">1</Data>
+    </OpaqueData>
+    <Transform>0.253999978 0 0 0 0 1.55530138E-17 -0.253999978 0 0 0.253999978 1.55530138E-17 0 0 -9.260358 -4.053382E-07 1</Transform>
+    <Positions>0 0 90 -40 -40 0 40 -40 0 40 40 0 -40 40 0 0 0 0</Positions>
+    <Geometry>
+      <Batch>
+        <Material>#Resource1</Material>
+        <Indices>2 1 0 5 4 3 8 7 6 11 10 9 14 13 12 15 13 14 16 13 15 12 13 16</Indices>
+        <Vertices>
+          <PositionIndices>0 1 2 0 2 3 0 3 4 0 4 1 1 5 2 3 4</PositionIndices>
+          <Channels>
+            <VertexChannel Name="Normal0" ElementType="Framework:Vector3">0 -0.9138115 0.40613842 0 -0.913811564 0.40613848 0 -0.913811564 0.40613848 0.9138115 0 0.40613842 0.913811564 0 0.40613848 0.913811564 0 0.40613848 0 0.9138115 0.40613842 0 0.913811564 0.40613848 0 0.913811564 0.40613848 -0.9138115 0 0.40613842 -0.913811564 0 0.40613848 -0.913811564 0 0.40613848 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1</VertexChannel>
+            <VertexChannel Name="TextureCoordinate0" ElementType="Framework:Vector2">0.5 0 0 1 1 1 0.5 0 0 1 1 1 0.5 0 0 1 1 1 0.5 0 0 1 1 1 0 0 0.5 0.5 1 0 1 1 0 1</VertexChannel>
+          </Channels>
+        </Vertices>
+      </Batch>
+    </Geometry>
+  </Asset>
+  <Resources>
+    <Resource ID="#Resource1" Type="Graphics:BasicMaterialContent">
+      <Name>01 - Default</Name>
+      <Identity>
+        <SourceFilename>C:\Users\Ben\Documents\My Dropbox\Games and Prototypes\3D Game Project\Circuit\Circuit\Circuit\CircuitContent\Programms\Delete\DeleteBaseModel.fbx</SourceFilename>
+        <SourceTool>FbxImporter</SourceTool>
+      </Identity>
+      <OpaqueData>
+        <Data Key="DiffuseColor" Type="Framework:Vector3">0.5882353 0.5882353 0.5882353</Data>
+        <Data Key="EmissiveColor" Type="Framework:Vector3">0 0 0</Data>
+        <Data Key="Alpha" Type="float">1</Data>
+        <Data Key="SpecularColor" Type="Framework:Vector3">0 0 0</Data>
+        <Data Key="SpecularPower" Type="float">1.99999988</Data>
+      </OpaqueData>
+      <Textures>
+        <Texture Key="Texture">
+          <OpaqueData>
+            <Data Key="TextureCoordinate">TextureCoordinate0</Data>
+          </OpaqueData>
+          <Reference>#External1</Reference>
+        </Texture>
+      </Textures>
+    </Resource>
+  </Resources>
+  <ExternalReferences>
+    <ExternalReference ID="#External1" TargetType="Graphics:TextureContent">..\..\..\..\..\Programms\Delete\Red.png</ExternalReference>
+  </ExternalReferences>
+</XnaContent>

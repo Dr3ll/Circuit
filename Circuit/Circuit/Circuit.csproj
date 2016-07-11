@@ -1,0 +1,279 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{949A267F-AB8D-4A28-8EA2-0D35E23B1556}</ProjectGuid>
+    <ProjectTypeGuids>{6D335F3A-9D43-41b4-9D22-F6F17C4BE596};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Circuit</RootNamespace>
+    <AssemblyName>Circuit</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <XnaFrameworkVersion>v4.0</XnaFrameworkVersion>
+    <XnaPlatform>Windows</XnaPlatform>
+    <XnaProfile>HiDef</XnaProfile>
+    <XnaCrossPlatformGroupID>c9af6c1f-362f-43aa-ad54-5f835afd247e</XnaCrossPlatformGroupID>
+    <XnaOutputType>Game</XnaOutputType>
+    <ApplicationIcon>Game.ico</ApplicationIcon>
+    <Thumbnail>GameThumbnail.png</Thumbnail>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\x86\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE;WINDOWS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoStdLib>true</NoStdLib>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <PlatformTarget>x86</PlatformTarget>
+    <XnaCompressContent>false</XnaCompressContent>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\x86\Release</OutputPath>
+    <DefineConstants>TRACE;WINDOWS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoStdLib>true</NoStdLib>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <PlatformTarget>x86</PlatformTarget>
+    <XnaCompressContent>true</XnaCompressContent>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BEPUphysics, Version=1.1.0.0, Culture=neutral, PublicKeyToken=31f6a8732a21de19, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>BEPUphysics v1.1.0\BEPUphysics.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Game, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Graphics, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.GamerServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Xact, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Video, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Avatar, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Net, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Storage, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="mscorlib">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net">
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ArenaClasses\Arena.cs" />
+    <Compile Include="ArenaClasses\ArenaBuilders\ArenaBuilder.cs" />
+    <Compile Include="ArenaClasses\ArenaBuilders\ArenaInstructions.cs" />
+    <Compile Include="ArenaClasses\ArenaBuilders\BuildDirector.cs" />
+    <Compile Include="ArenaClasses\ArenaBuilders\NeutralArenaBuilder.cs" />
+    <Compile Include="ArenaClasses\Parts\Collider.cs" />
+    <Compile Include="ArenaClasses\Parts\Destructibles\DestructibleBall.cs" />
+    <Compile Include="ArenaClasses\Parts\Destructibles\DestructibleBallCreator.cs" />
+    <Compile Include="ArenaClasses\Parts\Destructibles\DestructibleCylinder.cs" />
+    <Compile Include="ArenaClasses\Parts\Destructibles\DestructibleCylinderCreator.cs" />
+    <Compile Include="ArenaClasses\Parts\Destructibles\DestructibleObject.cs" />
+    <Compile Include="ArenaClasses\Parts\Destructibles\DestructibleCreator.cs" />
+    <Compile Include="ArenaClasses\Parts\Destructibles\DestructibleBox.cs" />
+    <Compile Include="ArenaClasses\Parts\Destructibles\Prototype.cs" />
+    <Compile Include="ArenaClasses\Parts\Destructibles\DestructibleBoxCreator.cs" />
+    <Compile Include="ArenaClasses\Parts\GenericPlane.cs" />
+    <Compile Include="ArenaClasses\Parts\Skybox.cs" />
+    <Compile Include="ArenaClasses\Parts\SpawnPoint.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Game1.cs" />
+    <Compile Include="Screens\ActionScreen.cs" />
+    <Compile Include="Screens\CreditsScreen.cs" />
+    <Compile Include="Screens\GameScreen.cs" />
+    <Compile Include="Screens\InstructionsScreen.cs" />
+    <Compile Include="Screens\IntroScreen.cs" />
+    <Compile Include="Screens\SettingsScreen.cs" />
+    <Compile Include="Screens\StartScreen.cs" />
+    <Compile Include="S_Action\PlayerClasses\Arsenal.cs" />
+    <Compile Include="S_Action\PlayerClasses\BoolEventArgs.cs" />
+    <Compile Include="S_Action\PlayerClasses\Character\CharacterController.cs" />
+    <Compile Include="S_Action\PlayerClasses\Character\CharacterControllerInput.cs" />
+    <Compile Include="S_Action\PlayerClasses\Character\HorizontalMotionConstraint.cs" />
+    <Compile Include="S_Action\PlayerClasses\Character\ICharacterTag.cs" />
+    <Compile Include="S_Action\PlayerClasses\Character\QueryManager.cs" />
+    <Compile Include="S_Action\PlayerClasses\Character\StanceManager.cs" />
+    <Compile Include="S_Action\PlayerClasses\Character\StepManager.cs" />
+    <Compile Include="S_Action\PlayerClasses\Character\SupportFinder.cs" />
+    <Compile Include="S_Action\PlayerClasses\Character\VerticalMotionConstraint.cs" />
+    <Compile Include="S_Action\PlayerClasses\CloudManager.cs" />
+    <Compile Include="S_Action\PlayerClasses\FragmentCloud.cs" />
+    <Compile Include="S_Action\PlayerClasses\Offset.cs" />
+    <Compile Include="S_Action\PlayerClasses\ParameterSet.cs" />
+    <Compile Include="S_Action\PlayerClasses\Player.cs" />
+    <Compile Include="S_Action\PlayerClasses\PositionEventArgs.cs" />
+    <Compile Include="S_Action\PlayerClasses\Programms\Boost.cs" />
+    <Compile Include="S_Action\PlayerClasses\Programms\BoostManager.cs" />
+    <Compile Include="S_Action\PlayerClasses\Programms\CollisionTag.cs" />
+    <Compile Include="S_Action\PlayerClasses\Programms\Delete\DeleteBoost.cs" />
+    <Compile Include="S_Action\PlayerClasses\Programms\Delete\DeleteFactory.cs" />
+    <Compile Include="S_Action\PlayerClasses\Programms\Delete\DeleteFragment.cs" />
+    <Compile Include="S_Action\PlayerClasses\Programms\Delete\DeleteShot.cs" />
+    <Compile Include="S_Action\PlayerClasses\Programms\Delete\DeleteTrap.cs" />
+    <Compile Include="S_Action\PlayerClasses\Programms\DummieFactory.cs" />
+    <Compile Include="S_Action\PlayerClasses\Programms\Firewall\FirewallBoost.cs" />
+    <Compile Include="S_Action\PlayerClasses\Programms\Firewall\FirewallChip.cs" />
+    <Compile Include="S_Action\PlayerClasses\Programms\Firewall\FirewallFactory.cs" />
+    <Compile Include="S_Action\PlayerClasses\Programms\Firewall\FirewallFragment.cs" />
+    <Compile Include="S_Action\PlayerClasses\Programms\Firewall\FirewallShot.cs" />
+    <Compile Include="S_Action\PlayerClasses\Programms\Firewall\FirewallTrap.cs" />
+    <Compile Include="S_Action\PlayerClasses\Programms\Firewall\MotorizedGrabSpring.cs" />
+    <Compile Include="S_Action\PlayerClasses\Programms\Fragment.cs" />
+    <Compile Include="S_Action\PlayerClasses\Programms\GoTo\GoToBoost.cs" />
+    <Compile Include="S_Action\PlayerClasses\Programms\GoTo\GoToFactory.cs" />
+    <Compile Include="S_Action\PlayerClasses\Programms\GoTo\GoToFragment.cs" />
+    <Compile Include="S_Action\PlayerClasses\Programms\GoTo\GoToShot.cs" />
+    <Compile Include="S_Action\PlayerClasses\Programms\GoTo\GoToSplinter.cs" />
+    <Compile Include="S_Action\PlayerClasses\Programms\GoTo\GoToTrap.cs" />
+    <Compile Include="S_Action\PlayerClasses\Programms\Optimize\OptimizeBoost.cs" />
+    <Compile Include="S_Action\PlayerClasses\Programms\Optimize\OptimizeFactory.cs" />
+    <Compile Include="S_Action\PlayerClasses\Programms\Optimize\OptimizeFragment.cs" />
+    <Compile Include="S_Action\PlayerClasses\Programms\Optimize\OptimizeNegativeBoost.cs" />
+    <Compile Include="S_Action\PlayerClasses\Programms\Optimize\OptimizeShot.cs" />
+    <Compile Include="S_Action\PlayerClasses\Programms\Optimize\OptimizeTrap.cs" />
+    <Compile Include="S_Action\PlayerClasses\Programms\ProgrammFactory.cs" />
+    <Compile Include="S_Action\PlayerClasses\Programms\Run.cs" />
+    <Compile Include="S_Action\PlayerClasses\Programms\Shot.cs" />
+    <Compile Include="S_Action\PlayerClasses\Programms\ShotCollisionTag.cs" />
+    <Compile Include="S_Action\PlayerClasses\Programms\Trap.cs" />
+    <Compile Include="S_Settings\GameplaySettings.cs" />
+    <Compile Include="S_Settings\GraficSettings.cs" />
+    <Compile Include="S_Settings\Settings.cs" />
+    <Compile Include="S_Settings\SettingsCollection.cs" />
+    <Compile Include="Utilities\Cameras\Camera.cs" />
+    <Compile Include="Utilities\Cameras\CameraHandler.cs" />
+    <Compile Include="Utilities\Cameras\ChaseCamera.cs" />
+    <Compile Include="Utilities\Cameras\FreeCamera.cs" />
+    <Compile Include="Utilities\Cameras\SplitCamHandler.cs" />
+    <Compile Include="Utilities\Cameras\StandartCamHandler.cs" />
+    <Compile Include="Utilities\ControlClass.cs" />
+    <Compile Include="Utilities\ControllerArgs.cs" />
+    <Compile Include="Utilities\Counter.cs" />
+    <Compile Include="Utilities\Data.cs" />
+    <Compile Include="Utilities\Debug.cs" />
+    <Compile Include="Utilities\Disposable.cs" />
+    <Compile Include="Utilities\DisposeHandler.cs" />
+    <Compile Include="Utilities\DrawableEntiy2D.cs" />
+    <Compile Include="Utilities\DrawableEntiy3D.cs" />
+    <Compile Include="Utilities\EntityModel.cs" />
+    <Compile Include="Utilities\FpsCounter.cs" />
+    <Compile Include="Utilities\GaussianBlur.cs" />
+    <Compile Include="Utilities\IngamePlayerScreen.cs" />
+    <Compile Include="Utilities\Materials\Material.cs" />
+    <Compile Include="Utilities\MenuComponent.cs" />
+    <Compile Include="Utilities\ModelObject.cs" />
+    <Compile Include="Utilities\OptionsSubmenu.cs" />
+    <Compile Include="Utilities\PlayerWinArgs.cs" />
+    <Compile Include="Utilities\PointManager.cs" />
+    <Compile Include="Utilities\PostProcessor.cs" />
+    <Compile Include="Utilities\RenderCapture.cs" />
+    <Compile Include="Utilities\StaticModel.cs" />
+    <Compile Include="Utilities\Submenu.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="BEPUphysics v1.2.0\BEPUphysics.dll" />
+    <Content Include="BEPUphysics v1.2.0\BEPUphysics.XML" />
+    <Content Include="Game.ico" />
+    <Content Include="GameThumbnail.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CircuitContent\CircuitContent.contentproj">
+      <Name>CircuitContent</Name>
+      <XnaReferenceType>Content</XnaReferenceType>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 und x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Xna.Framework.4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft XNA Framework Redistributable 4.0</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="S_Start\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\XNA Game Studio\Microsoft.Xna.GameStudio.targets" />
+  <!--
+      To modify your build process, add your task inside one of the targets below and uncomment it. 
+      Other similar extension points exist, see Microsoft.Common.targets.
+      <Target Name="BeforeBuild">
+      </Target>
+      <Target Name="AfterBuild">
+      </Target>
+    -->
+</Project>

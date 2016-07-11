@@ -1,0 +1,996 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline" xmlns:Framework="Microsoft.Xna.Framework" xmlns:Processors="Microsoft.Xna.Framework.Content.Pipeline.Processors">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>Videos\Logo_720p.wmv</Source>
+      <Name>Videos\Logo_720p</Name>
+      <Importer>WmvImporter</Importer>
+      <Processor>VideoProcessor</Processor>
+      <Options>None</Options>
+      <Output>K:\dropbox overflow\Circuit\Circuit - Kopie-Leuchtende Schüsse\Circuit\Circuit\bin\x86\Release\Content\Videos\Logo_720p.xnb</Output>
+      <Extra>K:\dropbox overflow\Circuit\Circuit - Kopie-Leuchtende Schüsse\Circuit\Circuit\bin\x86\Release\Content\Videos\Logo_720p.wmv</Extra>
+      <Time>2012-09-06T13:20:34+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\cubeDestroy\cube_rounded.x</Source>
+      <Name>Models\cubeDestroy\cube_rounded</Name>
+      <Importer>XImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>K:\dropbox overflow\Circuit\Circuit - Kopie-Leuchtende Schüsse\Circuit\Circuit\bin\x86\Release\Content\Models\cubeDestroy\cube_rounded.xnb</Output>
+      <Time>2012-09-06T13:20:34+02:00</Time>
+      <Dependency>
+        <Key>obj\x86\Release\Models\cubeDestroy\cube_rounded_0.xml</Key>
+        <Value>2016-07-11T10:43:59.0941464+02:00</Value>
+      </Dependency>
+      <Request>K:\dropbox overflow\Circuit\Circuit - Kopie-Leuchtende Schüsse\Circuit\Circuit\bin\x86\Release\Content\Models\cubeDestroy\cube_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Models\cube\controller.fbx</Source>
+      <Name>Models\cube\controller</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>K:\dropbox overflow\Circuit\Circuit - Kopie-Leuchtende Schüsse\Circuit\Circuit\bin\x86\Release\Content\Models\cube\controller.xnb</Output>
+      <Time>2012-09-06T13:20:34+02:00</Time>
+      <Dependency>
+        <Key>obj\x86\Release\Models\cube\controller_0.xml</Key>
+        <Value>2016-07-11T10:43:59.5711737+02:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Arenas\NeutralArena\Base\playground.fbx</Source>
+      <Name>Arenas\NeutralArena\Base\base</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Parameters>
+        <Data Key="GenerateTangentFrames">True</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>K:\dropbox overflow\Circuit\Circuit - Kopie-Leuchtende Schüsse\Circuit\Circuit\bin\x86\Release\Content\Arenas\NeutralArena\Base\base.xnb</Output>
+      <Time>2012-09-06T13:20:33+02:00</Time>
+      <Dependency>
+        <Key>obj\x86\Release\Arenas\NeutralArena\Base\playground_0.xml</Key>
+        <Value>2016-07-11T10:44:00.8832487+02:00</Value>
+      </Dependency>
+      <Request>K:\dropbox overflow\Circuit\Circuit - Kopie-Leuchtende Schüsse\Circuit\Circuit\bin\x86\Release\Content\Arenas\NeutralArena\brick_texture_map_0.xnb</Request>
+      <Request>K:\dropbox overflow\Circuit\Circuit - Kopie-Leuchtende Schüsse\Circuit\Circuit\bin\x86\Release\Content\Arenas\NeutralArena\brick_texture_map3_0.xnb</Request>
+      <Request>K:\dropbox overflow\Circuit\Circuit - Kopie-Leuchtende Schüsse\Circuit\Circuit\bin\x86\Release\Content\Arenas\NeutralArena\brick_texture_map2_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Programms\Delete\DeleteBaseModel.fbx</Source>
+      <Name>Programms\Delete\DeleteBaseModel</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>K:\dropbox overflow\Circuit\Circuit - Kopie-Leuchtende Schüsse\Circuit\Circuit\bin\x86\Release\Content\Programms\Delete\DeleteBaseModel.xnb</Output>
+      <Time>2012-09-06T13:20:34+02:00</Time>
+      <Dependency>
+        <Key>obj\x86\Release\Programms\Delete\DeleteBaseModel_0.xml</Key>
+        <Value>2016-07-11T10:44:02.5343432+02:00</Value>
+      </Dependency>
+      <Request>K:\dropbox overflow\Circuit\Circuit - Kopie-Leuchtende Schüsse\Circuit\Circuit\bin\x86\Release\Content\Programms\Delete\Red_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>sphere.fbx</Source>
+      <Name>sphere</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>K:\dropbox overflow\Circuit\Circuit - Kopie-Leuchtende Schüsse\Circuit\Circuit\bin\x86\Release\Content\sphere.xnb</Output>
+      <Time>2012-09-06T13:20:34+02:00</Time>
+      <Dependency>
+        <Key>obj\x86\Release\sphere_0.xml</Key>
+        <Value>2016-07-11T10:44:02.7373548+02:00</Value>
+      </Dependency>
+      <Request>K:\dropbox overflow\Circuit\Circuit - Kopie-Leuchtende Schüsse\Circuit\Circuit\bin\x86\Release\Content\checkerboard_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>cube.fbx</Source>
+      <Name>cubef</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>K:\dropbox overflow\Circuit\Circuit - Kopie-Leuchtende Schüsse\Circuit\Circuit\bin\x86\Release\Content\cubef.xnb</Output>
+      <Time>2012-09-06T13:20:34+02:00</Time>
+      <Dependency>
+        <Key>obj\x86\Release\cube_0.xml</Key>
+        <Value>2016-07-11T10:44:02.8233597+02:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Programms\Optimize\OptimizeBaseModel.FBX</Source>
+      <Name>Programms\Optimize\OptimizeBaseModel</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>K:\dropbox overflow\Circuit\Circuit - Kopie-Leuchtende Schüsse\Circuit\Circuit\bin\x86\Release\Content\Programms\Optimize\OptimizeBaseModel.xnb</Output>
+      <Time>2012-09-27T21:16:10+02:00</Time>
+      <Dependency>
+        <Key>obj\x86\Release\Programms\Optimize\OptimizeBaseModel_0.xml</Key>
+        <Value>2016-07-11T10:44:02.8553615+02:00</Value>
+      </Dependency>
+      <Request>K:\dropbox overflow\Circuit\Circuit - Kopie-Leuchtende Schüsse\Circuit\Circuit\bin\x86\Release\Content\Programms\Optimize\GlowWhite_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Programms\Firewall\FirewallBaseModel.fbx</Source>
+      <Name>Programms\Firewall\FirewallBaseModel</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>K:\dropbox overflow\Circuit\Circuit - Kopie-Leuchtende Schüsse\Circuit\Circuit\bin\x86\Release\Content\Programms\Firewall\FirewallBaseModel.xnb</Output>
+      <Time>2012-09-06T13:20:34+02:00</Time>
+      <Dependency>
+        <Key>obj\x86\Release\Programms\Firewall\FirewallBaseModel_0.xml</Key>
+        <Value>2016-07-11T10:44:02.9833688+02:00</Value>
+      </Dependency>
+      <Request>K:\dropbox overflow\Circuit\Circuit - Kopie-Leuchtende Schüsse\Circuit\Circuit\bin\x86\Release\Content\Programms\Würfel\Cyan_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Programms\GoTo\GoToBaseModel.FBX</Source>
+      <Name>Programms\GoTo\GoToBaseModel</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>K:\dropbox overflow\Circuit\Circuit - Kopie-Leuchtende Schüsse\Circuit\Circuit\bin\x86\Release\Content\Programms\GoTo\GoToBaseModel.xnb</Output>
+      <Time>2012-09-06T13:20:34+02:00</Time>
+      <Dependency>
+        <Key>obj\x86\Release\Programms\GoTo\GoToBaseModel_0.xml</Key>
+        <Value>2016-07-11T10:44:03.1283771+02:00</Value>
+      </Dependency>
+      <Request>K:\dropbox overflow\Circuit\Circuit - Kopie-Leuchtende Schüsse\Circuit\Circuit\bin\x86\Release\Content\Programms\GoTo\Green_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Bob\Bob.fbx</Source>
+      <Name>Bob\Bob</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>K:\dropbox overflow\Circuit\Circuit - Kopie-Leuchtende Schüsse\Circuit\Circuit\bin\x86\Release\Content\Bob\Bob.xnb</Output>
+      <Time>2012-09-28T08:25:10+02:00</Time>
+      <Dependency>
+        <Key>obj\x86\Release\Bob\Bob_0.xml</Key>
+        <Value>2016-07-11T10:44:03.301387+02:00</Value>
+      </Dependency>
+      <Request>K:\dropbox overflow\Circuit\Circuit - Kopie-Leuchtende Schüsse\Circuit\Circuit\bin\x86\Release\Content\Bob\Character-Textur\BobUV2-fertig_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Models\groundstone.dds</Source>
+      <Name>Models\groundstone</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>K:\dropbox overflow\Circuit\Circuit - Kopie-Leuchtende Schüsse\Circuit\Circuit\bin\x86\Release\Content\Models\groundstone.xnb</Output>
+      <Time>2012-09-06T13:20:34+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\cubeDestroy\cube.jpg</Source>
+      <Name>Models\cubeDestroy\cube</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>K:\dropbox overflow\Circuit\Circuit - Kopie-Leuchtende Schüsse\Circuit\Circuit\bin\x86\Release\Content\Models\cubeDestroy\cube.xnb</Output>
+      <Time>2012-09-06T13:20:34+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Arenas\NeutralArena\Skybox\Skybox_BACK.jpg</Source>
+      <Name>Arenas\NeutralArena\Skybox\Skybox_BACK</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>K:\dropbox overflow\Circuit\Circuit - Kopie-Leuchtende Schüsse\Circuit\Circuit\bin\x86\Release\Content\Arenas\NeutralArena\Skybox\Skybox_BACK.xnb</Output>
+      <Time>2012-09-06T13:20:33+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Arenas\NeutralArena\Skybox\Skybox_BOTTOM.jpg</Source>
+      <Name>Arenas\NeutralArena\Skybox\Skybox_BOTTOM</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>K:\dropbox overflow\Circuit\Circuit - Kopie-Leuchtende Schüsse\Circuit\Circuit\bin\x86\Release\Content\Arenas\NeutralArena\Skybox\Skybox_BOTTOM.xnb</Output>
+      <Time>2012-09-06T13:20:33+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Arenas\NeutralArena\Skybox\Skybox_FRONT.jpg</Source>
+      <Name>Arenas\NeutralArena\Skybox\Skybox_FRONT</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>K:\dropbox overflow\Circuit\Circuit - Kopie-Leuchtende Schüsse\Circuit\Circuit\bin\x86\Release\Content\Arenas\NeutralArena\Skybox\Skybox_FRONT.xnb</Output>
+      <Time>2012-09-06T13:20:33+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Arenas\NeutralArena\Skybox\Skybox_LEFT.jpg</Source>
+      <Name>Arenas\NeutralArena\Skybox\Skybox_LEFT</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>K:\dropbox overflow\Circuit\Circuit - Kopie-Leuchtende Schüsse\Circuit\Circuit\bin\x86\Release\Content\Arenas\NeutralArena\Skybox\Skybox_LEFT.xnb</Output>
+      <Time>2012-09-06T13:20:33+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Arenas\NeutralArena\Skybox\Skybox_RIGHT.jpg</Source>
+      <Name>Arenas\NeutralArena\Skybox\Skybox_RIGHT</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>K:\dropbox overflow\Circuit\Circuit - Kopie-Leuchtende Schüsse\Circuit\Circuit\bin\x86\Release\Content\Arenas\NeutralArena\Skybox\Skybox_RIGHT.xnb</Output>
+      <Time>2012-09-06T13:20:34+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Arenas\NeutralArena\Skybox\Skybox_TOP.jpg</Source>
+      <Name>Arenas\NeutralArena\Skybox\Skybox_TOP</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>K:\dropbox overflow\Circuit\Circuit - Kopie-Leuchtende Schüsse\Circuit\Circuit\bin\x86\Release\Content\Arenas\NeutralArena\Skybox\Skybox_TOP.xnb</Output>
+      <Time>2012-09-06T13:20:34+02:00</Time>
+    </Item>
+    <Item>
+      <Source>checkerboard.jpg</Source>
+      <Name>checkerboard</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>K:\dropbox overflow\Circuit\Circuit - Kopie-Leuchtende Schüsse\Circuit\Circuit\bin\x86\Release\Content\checkerboard.xnb</Output>
+      <Time>2012-09-06T13:20:34+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Arenas\NeutralArena\brick_normal_map.png</Source>
+      <Name>Arenas\NeutralArena\brick_normal_map</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>K:\dropbox overflow\Circuit\Circuit - Kopie-Leuchtende Schüsse\Circuit\Circuit\bin\x86\Release\Content\Arenas\NeutralArena\brick_normal_map.xnb</Output>
+      <Time>2012-09-06T13:20:34+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Arenas\NeutralArena\brick_texture_map.png</Source>
+      <Name>Arenas\NeutralArena\brick_texture_map</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>K:\dropbox overflow\Circuit\Circuit - Kopie-Leuchtende Schüsse\Circuit\Circuit\bin\x86\Release\Content\Arenas\NeutralArena\brick_texture_map.xnb</Output>
+      <Time>2012-09-06T13:20:34+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Arenas\NeutralArena\brick_texture_map2.png</Source>
+      <Name>Arenas\NeutralArena\brick_texture_map2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>K:\dropbox overflow\Circuit\Circuit - Kopie-Leuchtende Schüsse\Circuit\Circuit\bin\x86\Release\Content\Arenas\NeutralArena\brick_texture_map2.xnb</Output>
+      <Time>2012-09-06T13:20:34+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Arenas\NeutralArena\brick_texture_map3.png</Source>
+      <Name>Arenas\NeutralArena\brick_texture_map3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>K:\dropbox overflow\Circuit\Circuit - Kopie-Leuchtende Schüsse\Circuit\Circuit\bin\x86\Release\Content\Arenas\NeutralArena\brick_texture_map3.xnb</Output>
+      <Time>2012-09-06T13:20:34+02:00</Time>
+    </Item>
+    <Item>
+      <Source>crosshair1.png</Source>
+      <Name>crosshair1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>K:\dropbox overflow\Circuit\Circuit - Kopie-Leuchtende Schüsse\Circuit\Circuit\bin\x86\Release\Content\crosshair1.xnb</Output>
+      <Time>2012-09-06T13:20:34+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Programms\Würfel\Cyan.png</Source>
+      <Name>Programms\Würfel\Cyan</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>K:\dropbox overflow\Circuit\Circuit - Kopie-Leuchtende Schüsse\Circuit\Circuit\bin\x86\Release\Content\Programms\Würfel\Cyan.xnb</Output>
+      <Time>2012-09-06T13:20:34+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Programms\GoTo\Green.png</Source>
+      <Name>Programms\GoTo\Green</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>K:\dropbox overflow\Circuit\Circuit - Kopie-Leuchtende Schüsse\Circuit\Circuit\bin\x86\Release\Content\Programms\GoTo\Green.xnb</Output>
+      <Time>2012-09-06T13:20:34+02:00</Time>
+    </Item>
+    <Item>
+      <Source>PlayerScreens\Prompt.png</Source>
+      <Name>PlayerScreens\Prompt</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>K:\dropbox overflow\Circuit\Circuit - Kopie-Leuchtende Schüsse\Circuit\Circuit\bin\x86\Release\Content\PlayerScreens\Prompt.xnb</Output>
+      <Time>2012-09-06T13:20:34+02:00</Time>
+    </Item>
+    <Item>
+      <Source>PlayerScreens\YouLose.png</Source>
+      <Name>PlayerScreens\YouLose</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>K:\dropbox overflow\Circuit\Circuit - Kopie-Leuchtende Schüsse\Circuit\Circuit\bin\x86\Release\Content\PlayerScreens\YouLose.xnb</Output>
+      <Time>2012-09-06T13:20:34+02:00</Time>
+    </Item>
+    <Item>
+      <Source>PlayerScreens\YouWin.png</Source>
+      <Name>PlayerScreens\YouWin</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>K:\dropbox overflow\Circuit\Circuit - Kopie-Leuchtende Schüsse\Circuit\Circuit\bin\x86\Release\Content\PlayerScreens\YouWin.xnb</Output>
+      <Time>2012-09-06T13:20:34+02:00</Time>
+    </Item>
+    <Item>
+      <Source>brick_texture_map.png</Source>
+      <Name>brick_texture_map</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>K:\dropbox overflow\Circuit\Circuit - Kopie-Leuchtende Schüsse\Circuit\Circuit\bin\x86\Release\Content\brick_texture_map.xnb</Output>
+      <Time>2012-09-06T13:20:34+02:00</Time>
+    </Item>
+    <Item>
+      <Source>NonGlow.bmp</Source>
+      <Name>NonGlow</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>K:\dropbox overflow\Circuit\Circuit - Kopie-Leuchtende Schüsse\Circuit\Circuit\bin\x86\Release\Content\NonGlow.xnb</Output>
+      <Time>2012-09-06T13:20:34+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Bob\GlowTextures\full_health.bmp</Source>
+      <Name>Bob\GlowTextures\full_health</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>K:\dropbox overflow\Circuit\Circuit - Kopie-Leuchtende Schüsse\Circuit\Circuit\bin\x86\Release\Content\Bob\GlowTextures\full_health.xnb</Output>
+      <Time>2012-09-12T14:27:16+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Bob\GlowTextures\low_health.bmp</Source>
+      <Name>Bob\GlowTextures\low_health</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>K:\dropbox overflow\Circuit\Circuit - Kopie-Leuchtende Schüsse\Circuit\Circuit\bin\x86\Release\Content\Bob\GlowTextures\low_health.xnb</Output>
+      <Time>2012-09-06T13:20:34+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Bob\GlowTextures\mid_health.bmp</Source>
+      <Name>Bob\GlowTextures\mid_health</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>K:\dropbox overflow\Circuit\Circuit - Kopie-Leuchtende Schüsse\Circuit\Circuit\bin\x86\Release\Content\Bob\GlowTextures\mid_health.xnb</Output>
+      <Time>2012-09-06T13:20:34+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Bob\BobUV-fertig.bmp</Source>
+      <Name>Bob\BobUV-fertig</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>K:\dropbox overflow\Circuit\Circuit - Kopie-Leuchtende Schüsse\Circuit\Circuit\bin\x86\Release\Content\Bob\BobUV-fertig.xnb</Output>
+      <Time>2012-09-06T13:20:34+02:00</Time>
+    </Item>
+    <Item>
+      <Source>TitleScreen.png</Source>
+      <Name>TitleScreen</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>K:\dropbox overflow\Circuit\Circuit - Kopie-Leuchtende Schüsse\Circuit\Circuit\bin\x86\Release\Content\TitleScreen.xnb</Output>
+      <Time>2012-09-06T13:20:34+02:00</Time>
+    </Item>
+    <Item>
+      <Source>OptionsScreen.png</Source>
+      <Name>OptionsScreen</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>K:\dropbox overflow\Circuit\Circuit - Kopie-Leuchtende Schüsse\Circuit\Circuit\bin\x86\Release\Content\OptionsScreen.xnb</Output>
+      <Time>2012-09-18T18:20:37+02:00</Time>
+    </Item>
+    <Item>
+      <Source>CreditsScreen.png</Source>
+      <Name>CreditsScreen</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>K:\dropbox overflow\Circuit\Circuit - Kopie-Leuchtende Schüsse\Circuit\Circuit\bin\x86\Release\Content\CreditsScreen.xnb</Output>
+      <Time>2012-09-26T00:53:35+02:00</Time>
+    </Item>
+    <Item>
+      <Source>InstructionsMenu\Instructions0.png</Source>
+      <Name>InstructionsMenu\Instructions0</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>K:\dropbox overflow\Circuit\Circuit - Kopie-Leuchtende Schüsse\Circuit\Circuit\bin\x86\Release\Content\InstructionsMenu\Instructions0.xnb</Output>
+      <Time>2012-09-06T13:20:34+02:00</Time>
+    </Item>
+    <Item>
+      <Source>InstructionsMenu\Instructions1.png</Source>
+      <Name>InstructionsMenu\Instructions1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>K:\dropbox overflow\Circuit\Circuit - Kopie-Leuchtende Schüsse\Circuit\Circuit\bin\x86\Release\Content\InstructionsMenu\Instructions1.xnb</Output>
+      <Time>2012-09-06T13:20:34+02:00</Time>
+    </Item>
+    <Item>
+      <Source>InstructionsMenu\Instructions2.png</Source>
+      <Name>InstructionsMenu\Instructions2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>K:\dropbox overflow\Circuit\Circuit - Kopie-Leuchtende Schüsse\Circuit\Circuit\bin\x86\Release\Content\InstructionsMenu\Instructions2.xnb</Output>
+      <Time>2012-09-26T00:54:58+02:00</Time>
+    </Item>
+    <Item>
+      <Source>InstructionsMenu\Instructions3.png</Source>
+      <Name>InstructionsMenu\Instructions3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>K:\dropbox overflow\Circuit\Circuit - Kopie-Leuchtende Schüsse\Circuit\Circuit\bin\x86\Release\Content\InstructionsMenu\Instructions3.xnb</Output>
+      <Time>2012-09-26T00:54:58+02:00</Time>
+    </Item>
+    <Item>
+      <Source>InstructionsMenu\Instructions4.png</Source>
+      <Name>InstructionsMenu\Instructions4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>K:\dropbox overflow\Circuit\Circuit - Kopie-Leuchtende Schüsse\Circuit\Circuit\bin\x86\Release\Content\InstructionsMenu\Instructions4.xnb</Output>
+      <Time>2012-09-26T00:54:58+02:00</Time>
+    </Item>
+    <Item>
+      <Source>InstructionsMenu\Instructions5.png</Source>
+      <Name>InstructionsMenu\Instructions5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>K:\dropbox overflow\Circuit\Circuit - Kopie-Leuchtende Schüsse\Circuit\Circuit\bin\x86\Release\Content\InstructionsMenu\Instructions5.xnb</Output>
+      <Time>2012-09-26T00:54:58+02:00</Time>
+    </Item>
+    <Item>
+      <Source>InstructionsMenu\Instructions6.png</Source>
+      <Name>InstructionsMenu\Instructions6</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>K:\dropbox overflow\Circuit\Circuit - Kopie-Leuchtende Schüsse\Circuit\Circuit\bin\x86\Release\Content\InstructionsMenu\Instructions6.xnb</Output>
+      <Time>2012-09-26T00:54:58+02:00</Time>
+    </Item>
+    <Item>
+      <Source>InstructionsMenu\Instructions7.png</Source>
+      <Name>InstructionsMenu\Instructions7</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>K:\dropbox overflow\Circuit\Circuit - Kopie-Leuchtende Schüsse\Circuit\Circuit\bin\x86\Release\Content\InstructionsMenu\Instructions7.xnb</Output>
+      <Time>2012-09-26T00:54:58+02:00</Time>
+    </Item>
+    <Item>
+      <Source>PlayerScreens\Score-Kasten.png</Source>
+      <Name>PlayerScreens\Score-Kasten</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>K:\dropbox overflow\Circuit\Circuit - Kopie-Leuchtende Schüsse\Circuit\Circuit\bin\x86\Release\Content\PlayerScreens\Score-Kasten.xnb</Output>
+      <Time>2012-09-26T00:55:53+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Programms\Delete\GlowRed.png</Source>
+      <Name>Programms\Delete\GlowRed</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>K:\dropbox overflow\Circuit\Circuit - Kopie-Leuchtende Schüsse\Circuit\Circuit\bin\x86\Release\Content\Programms\Delete\GlowRed.xnb</Output>
+      <Time>2012-09-27T20:06:54+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Programms\Würfel\GlowCyan.png</Source>
+      <Name>Programms\Würfel\GlowCyan</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>K:\dropbox overflow\Circuit\Circuit - Kopie-Leuchtende Schüsse\Circuit\Circuit\bin\x86\Release\Content\Programms\Würfel\GlowCyan.xnb</Output>
+      <Time>2012-09-27T20:07:19+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Programms\GoTo\GlowGreen.png</Source>
+      <Name>Programms\GoTo\GlowGreen</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>K:\dropbox overflow\Circuit\Circuit - Kopie-Leuchtende Schüsse\Circuit\Circuit\bin\x86\Release\Content\Programms\GoTo\GlowGreen.xnb</Output>
+      <Time>2012-09-27T20:07:34+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Programms\Delete\GlowRedDark.png</Source>
+      <Name>Programms\Delete\GlowRedDark</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>K:\dropbox overflow\Circuit\Circuit - Kopie-Leuchtende Schüsse\Circuit\Circuit\bin\x86\Release\Content\Programms\Delete\GlowRedDark.xnb</Output>
+      <Time>2012-09-27T20:20:20+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Programms\Würfel\GlowCyanDark.png</Source>
+      <Name>Programms\Würfel\GlowCyanDark</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>K:\dropbox overflow\Circuit\Circuit - Kopie-Leuchtende Schüsse\Circuit\Circuit\bin\x86\Release\Content\Programms\Würfel\GlowCyanDark.xnb</Output>
+      <Time>2012-09-27T20:40:07+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Programms\GoTo\GlowGreenDark.png</Source>
+      <Name>Programms\GoTo\GlowGreenDark</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>K:\dropbox overflow\Circuit\Circuit - Kopie-Leuchtende Schüsse\Circuit\Circuit\bin\x86\Release\Content\Programms\GoTo\GlowGreenDark.xnb</Output>
+      <Time>2012-09-27T20:46:30+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Programms\Optimize\GlowWhite.png</Source>
+      <Name>Programms\Optimize\GlowWhite</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>K:\dropbox overflow\Circuit\Circuit - Kopie-Leuchtende Schüsse\Circuit\Circuit\bin\x86\Release\Content\Programms\Optimize\GlowWhite.xnb</Output>
+      <Time>2012-09-27T21:06:19+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Programms\Optimize\GlowWhiteDark.png</Source>
+      <Name>Programms\Optimize\GlowWhiteDark</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>K:\dropbox overflow\Circuit\Circuit - Kopie-Leuchtende Schüsse\Circuit\Circuit\bin\x86\Release\Content\Programms\Optimize\GlowWhiteDark.xnb</Output>
+      <Time>2012-09-27T21:09:10+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Bob\Character-Textur\BobUV2-fertig.bmp</Source>
+      <Name>Bob\Character-Textur\BobUV2-fertig</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>K:\dropbox overflow\Circuit\Circuit - Kopie-Leuchtende Schüsse\Circuit\Circuit\bin\x86\Release\Content\Bob\Character-Textur\BobUV2-fertig.xnb</Output>
+      <Time>2012-09-28T08:25:16+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Fonts\fps_font.spritefont</Source>
+      <Name>Fonts\fps_font</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>K:\dropbox overflow\Circuit\Circuit - Kopie-Leuchtende Schüsse\Circuit\Circuit\bin\x86\Release\Content\Fonts\fps_font.xnb</Output>
+      <Time>2012-09-06T13:20:34+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Fonts\startMenuFont.spritefont</Source>
+      <Name>Fonts\startMenuFont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>K:\dropbox overflow\Circuit\Circuit - Kopie-Leuchtende Schüsse\Circuit\Circuit\bin\x86\Release\Content\Fonts\startMenuFont.xnb</Output>
+      <Time>2012-09-28T10:15:55+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Fonts\OptionsMenu.spritefont</Source>
+      <Name>Fonts\OptionsMenu</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>K:\dropbox overflow\Circuit\Circuit - Kopie-Leuchtende Schüsse\Circuit\Circuit\bin\x86\Release\Content\Fonts\OptionsMenu.xnb</Output>
+      <Time>2012-09-28T10:15:55+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Effects\LightingEffect.fx</Source>
+      <Name>Effects\LightingEffect</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>K:\dropbox overflow\Circuit\Circuit - Kopie-Leuchtende Schüsse\Circuit\Circuit\bin\x86\Release\Content\Effects\LightingEffect.xnb</Output>
+      <Time>2012-09-06T13:20:34+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Effects\NormalMapEffect.fx</Source>
+      <Name>Effects\NormalMapEffect</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>K:\dropbox overflow\Circuit\Circuit - Kopie-Leuchtende Schüsse\Circuit\Circuit\bin\x86\Release\Content\Effects\NormalMapEffect.xnb</Output>
+      <Time>2012-09-06T13:20:34+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Effects\GlowEffect.fx</Source>
+      <Name>Effects\GlowEffect</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>K:\dropbox overflow\Circuit\Circuit - Kopie-Leuchtende Schüsse\Circuit\Circuit\bin\x86\Release\Content\Effects\GlowEffect.xnb</Output>
+      <Time>2012-09-06T13:20:34+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Effects\GaussianBlur.fx</Source>
+      <Name>Effects\GaussianBlur</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>K:\dropbox overflow\Circuit\Circuit - Kopie-Leuchtende Schüsse\Circuit\Circuit\bin\x86\Release\Content\Effects\GaussianBlur.xnb</Output>
+      <Time>2012-09-06T13:20:34+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Effects\ExtraGlowEffect.fx</Source>
+      <Name>Effects\ExtraGlowEffect</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>K:\dropbox overflow\Circuit\Circuit - Kopie-Leuchtende Schüsse\Circuit\Circuit\bin\x86\Release\Content\Effects\ExtraGlowEffect.xnb</Output>
+      <Time>2012-09-12T14:26:34+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Soundeffects\Charge.wav</Source>
+      <Name>Soundeffects\Charge</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>K:\dropbox overflow\Circuit\Circuit - Kopie-Leuchtende Schüsse\Circuit\Circuit\bin\x86\Release\Content\Soundeffects\Charge.xnb</Output>
+      <Time>2012-09-06T13:20:34+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Soundeffects\Die.wav</Source>
+      <Name>Soundeffects\Die</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>K:\dropbox overflow\Circuit\Circuit - Kopie-Leuchtende Schüsse\Circuit\Circuit\bin\x86\Release\Content\Soundeffects\Die.xnb</Output>
+      <Time>2012-09-06T13:20:34+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Soundeffects\Jump.wav</Source>
+      <Name>Soundeffects\Jump</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>K:\dropbox overflow\Circuit\Circuit - Kopie-Leuchtende Schüsse\Circuit\Circuit\bin\x86\Release\Content\Soundeffects\Jump.xnb</Output>
+      <Time>2012-09-06T13:20:34+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Soundeffects\Menu.wav</Source>
+      <Name>Soundeffects\Menu</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>K:\dropbox overflow\Circuit\Circuit - Kopie-Leuchtende Schüsse\Circuit\Circuit\bin\x86\Release\Content\Soundeffects\Menu.xnb</Output>
+      <Time>2012-09-06T13:20:34+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Soundeffects\MenuAccept.wav</Source>
+      <Name>Soundeffects\MenuAccept</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>K:\dropbox overflow\Circuit\Circuit - Kopie-Leuchtende Schüsse\Circuit\Circuit\bin\x86\Release\Content\Soundeffects\MenuAccept.xnb</Output>
+      <Time>2012-09-06T13:20:34+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Soundeffects\Respawn.wav</Source>
+      <Name>Soundeffects\Respawn</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>K:\dropbox overflow\Circuit\Circuit - Kopie-Leuchtende Schüsse\Circuit\Circuit\bin\x86\Release\Content\Soundeffects\Respawn.xnb</Output>
+      <Time>2012-09-06T13:20:34+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Soundeffects\Shot.wav</Source>
+      <Name>Soundeffects\Shot</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>K:\dropbox overflow\Circuit\Circuit - Kopie-Leuchtende Schüsse\Circuit\Circuit\bin\x86\Release\Content\Soundeffects\Shot.xnb</Output>
+      <Time>2012-09-06T13:20:34+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Soundeffects\Boost.wav</Source>
+      <Name>Soundeffects\Boost</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>K:\dropbox overflow\Circuit\Circuit - Kopie-Leuchtende Schüsse\Circuit\Circuit\bin\x86\Release\Content\Soundeffects\Boost.xnb</Output>
+      <Time>2012-09-06T13:20:34+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Soundeffects\Hit.wav</Source>
+      <Name>Soundeffects\Hit</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>K:\dropbox overflow\Circuit\Circuit - Kopie-Leuchtende Schüsse\Circuit\Circuit\bin\x86\Release\Content\Soundeffects\Hit.xnb</Output>
+      <Time>2012-09-06T13:20:34+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\cubeDestroy\cube_rounded.x</Source>
+      <Importer>XImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Release\Models\cubeDestroy\cube_rounded_0.xml</Output>
+      <Time>2012-09-06T13:20:34+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\cubeDestroy\cube.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>K:\dropbox overflow\Circuit\Circuit - Kopie-Leuchtende Schüsse\Circuit\Circuit\bin\x86\Release\Content\Models\cubeDestroy\cube_0.xnb</Output>
+      <Time>2012-09-06T13:20:34+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\cube\controller.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Release\Models\cube\controller_0.xml</Output>
+      <Time>2012-09-06T13:20:34+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Arenas\NeutralArena\Base\playground.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Release\Arenas\NeutralArena\Base\playground_0.xml</Output>
+      <Time>2012-09-06T13:20:33+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Arenas\NeutralArena\brick_texture_map.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>K:\dropbox overflow\Circuit\Circuit - Kopie-Leuchtende Schüsse\Circuit\Circuit\bin\x86\Release\Content\Arenas\NeutralArena\brick_texture_map_0.xnb</Output>
+      <Time>2012-09-06T13:20:34+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Arenas\NeutralArena\brick_texture_map3.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>K:\dropbox overflow\Circuit\Circuit - Kopie-Leuchtende Schüsse\Circuit\Circuit\bin\x86\Release\Content\Arenas\NeutralArena\brick_texture_map3_0.xnb</Output>
+      <Time>2012-09-06T13:20:34+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Arenas\NeutralArena\brick_texture_map2.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>K:\dropbox overflow\Circuit\Circuit - Kopie-Leuchtende Schüsse\Circuit\Circuit\bin\x86\Release\Content\Arenas\NeutralArena\brick_texture_map2_0.xnb</Output>
+      <Time>2012-09-06T13:20:34+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Programms\Delete\DeleteBaseModel.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Release\Programms\Delete\DeleteBaseModel_0.xml</Output>
+      <Time>2012-09-06T13:20:34+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Programms\Delete\Red.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>K:\dropbox overflow\Circuit\Circuit - Kopie-Leuchtende Schüsse\Circuit\Circuit\bin\x86\Release\Content\Programms\Delete\Red_0.xnb</Output>
+      <Time>2012-09-06T13:20:34+02:00</Time>
+    </Item>
+    <Item>
+      <Source>sphere.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Release\sphere_0.xml</Output>
+      <Time>2012-09-06T13:20:34+02:00</Time>
+    </Item>
+    <Item>
+      <Source>checkerboard.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>K:\dropbox overflow\Circuit\Circuit - Kopie-Leuchtende Schüsse\Circuit\Circuit\bin\x86\Release\Content\checkerboard_0.xnb</Output>
+      <Time>2012-09-06T13:20:34+02:00</Time>
+    </Item>
+    <Item>
+      <Source>cube.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Release\cube_0.xml</Output>
+      <Time>2012-09-06T13:20:34+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Programms\Optimize\OptimizeBaseModel.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Release\Programms\Optimize\OptimizeBaseModel_0.xml</Output>
+      <Time>2012-09-27T21:16:10+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Programms\Optimize\GlowWhite.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>K:\dropbox overflow\Circuit\Circuit - Kopie-Leuchtende Schüsse\Circuit\Circuit\bin\x86\Release\Content\Programms\Optimize\GlowWhite_0.xnb</Output>
+      <Time>2012-09-27T21:06:19+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Programms\Firewall\FirewallBaseModel.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Release\Programms\Firewall\FirewallBaseModel_0.xml</Output>
+      <Time>2012-09-06T13:20:34+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Programms\Würfel\Cyan.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>K:\dropbox overflow\Circuit\Circuit - Kopie-Leuchtende Schüsse\Circuit\Circuit\bin\x86\Release\Content\Programms\Würfel\Cyan_0.xnb</Output>
+      <Time>2012-09-06T13:20:34+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Programms\GoTo\GoToBaseModel.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Release\Programms\GoTo\GoToBaseModel_0.xml</Output>
+      <Time>2012-09-06T13:20:34+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Programms\GoTo\Green.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>K:\dropbox overflow\Circuit\Circuit - Kopie-Leuchtende Schüsse\Circuit\Circuit\bin\x86\Release\Content\Programms\GoTo\Green_0.xnb</Output>
+      <Time>2012-09-06T13:20:34+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Bob\Bob.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Release\Bob\Bob_0.xml</Output>
+      <Time>2012-09-28T08:25:10+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Bob\Character-Textur\BobUV2-fertig.bmp</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>K:\dropbox overflow\Circuit\Circuit - Kopie-Leuchtende Schüsse\Circuit\Circuit\bin\x86\Release\Content\Bob\Character-Textur\BobUV2-fertig_0.xnb</Output>
+      <Time>2012-09-28T08:25:16+02:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>HiDef</TargetProfile>
+      <BuildConfiguration>Release</BuildConfiguration>
+      <CompressContent>true</CompressContent>
+      <RootDirectory>K:\dropbox overflow\Circuit\Circuit - Kopie-Leuchtende Schüsse\Circuit\CircuitContent\</RootDirectory>
+      <LoggerRootDirectory>K:\dropbox overflow\Circuit\Circuit - Kopie-Leuchtende Schüsse\Circuit\Circuit\</LoggerRootDirectory>
+      <IntermediateDirectory>K:\dropbox overflow\Circuit\Circuit - Kopie-Leuchtende Schüsse\Circuit\CircuitContent\obj\x86\Release\</IntermediateDirectory>
+      <OutputDirectory>K:\dropbox overflow\Circuit\Circuit - Kopie-Leuchtende Schüsse\Circuit\Circuit\bin\x86\Release\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2010-08-23T12:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2010-08-23T12:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2016-07-11T09:41:16.2059215+02:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

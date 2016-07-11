@@ -1,0 +1,31 @@
+Neutral Arena
+
+DPositionsBox
+(X20 Y-36 Z40)
+(X-20 Y-36 Z-40)
+(X20 Y-36 Z-40)
+(X-20 Y-36 Z40)
+
+DOrientationsBox
+(X0 Y0 Z0)
+(X0 Y0 Z0)
+(X0 Y0 Z0)
+(X0 Y0 Z0)
+
+DPositionsCylinder
+(X0 Y-36 Z40)
+(X40 Y-36 Z-40)
+(X40 Y-36 Z40)
+
+DOrientationsCylinder
+(X0 Y0 Z0)
+(X0 Y0 Z0)
+(X0 Y0 Z0)
+
+SpawnPoints
+(X-20 Y30 Z20)
+(X20 Y30 Z20)
+(X20 Y30 Z-20)
+(X-20 Y30 Z-20)
+
+End of File

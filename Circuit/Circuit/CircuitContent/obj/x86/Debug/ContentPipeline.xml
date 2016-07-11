@@ -1,0 +1,374 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline" xmlns:Framework="Microsoft.Xna.Framework" xmlns:Processors="Microsoft.Xna.Framework.Content.Pipeline.Processors">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>Videos\Logo_720p.wmv</Source>
+      <Name>Videos\Logo_720p</Name>
+      <Importer>WmvImporter</Importer>
+      <Processor>VideoProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Ben\Documents\My Dropbox\Games and Prototypes\3D Game Project\Circuit\Circuit\Circuit\Circuit\bin\x86\Debug\Content\Videos\Logo_720p.xnb</Output>
+      <Extra>C:\Users\Ben\Documents\My Dropbox\Games and Prototypes\3D Game Project\Circuit\Circuit\Circuit\Circuit\bin\x86\Debug\Content\Videos\Logo_720p.wmv</Extra>
+      <Time>2012-06-27T14:46:21+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\cubeDestroy\cube_rounded.x</Source>
+      <Name>Models\cubeDestroy\cube_rounded</Name>
+      <Importer>XImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Ben\Documents\My Dropbox\Games and Prototypes\3D Game Project\Circuit\Circuit\Circuit\Circuit\bin\x86\Debug\Content\Models\cubeDestroy\cube_rounded.xnb</Output>
+      <Time>2012-06-27T14:46:21+02:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Models\cubeDestroy\cube_rounded_0.xml</Key>
+        <Value>2012-09-22T20:23:52.7752569+02:00</Value>
+      </Dependency>
+      <Request>C:\Users\Ben\Documents\My Dropbox\Games and Prototypes\3D Game Project\Circuit\Circuit\Circuit\Circuit\bin\x86\Debug\Content\Models\cubeDestroy\cube_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Models\cube\controller.fbx</Source>
+      <Name>Models\cube\controller</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Ben\Documents\My Dropbox\Games and Prototypes\3D Game Project\Circuit\Circuit\Circuit\Circuit\bin\x86\Debug\Content\Models\cube\controller.xnb</Output>
+      <Time>2012-06-27T14:46:21+02:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Models\cube\controller_0.xml</Key>
+        <Value>2012-09-22T20:23:56.4024643+02:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Arenas\NeutralArena\Base\playground.fbx</Source>
+      <Name>Arenas\NeutralArena\Base\base</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Parameters>
+        <Data Key="GenerateTangentFrames">True</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Ben\Documents\My Dropbox\Games and Prototypes\3D Game Project\Circuit\Circuit\Circuit\Circuit\bin\x86\Debug\Content\Arenas\NeutralArena\Base\base.xnb</Output>
+      <Time>2012-07-06T22:34:35+02:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Arenas\NeutralArena\Base\playground_0.xml</Key>
+        <Value>2012-09-22T20:23:58.9946126+02:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Programms\Delete\DeleteBaseModel.fbx</Source>
+      <Name>Programms\Delete\DeleteBaseModel</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Ben\Documents\My Dropbox\Games and Prototypes\3D Game Project\Circuit\Circuit\Circuit\Circuit\bin\x86\Debug\Content\Programms\Delete\DeleteBaseModel.xnb</Output>
+      <Time>2012-07-11T15:16:49+02:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Programms\Delete\DeleteBaseModel_0.xml</Key>
+        <Value>2012-09-22T20:23:59.8166596+02:00</Value>
+      </Dependency>
+      <Request>C:\Users\Ben\Documents\My Dropbox\Games and Prototypes\3D Game Project\Circuit\Circuit\Circuit\Circuit\bin\x86\Debug\Content\Programms\Delete\Red_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>sphere.fbx</Source>
+      <Name>sphere</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Ben\Documents\My Dropbox\Games and Prototypes\3D Game Project\Circuit\Circuit\Circuit\Circuit\bin\x86\Debug\Content\sphere.xnb</Output>
+      <Time>2012-06-27T14:46:21+02:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\sphere_0.xml</Key>
+        <Value>2012-09-22T20:24:01.2887438+02:00</Value>
+      </Dependency>
+      <Request>C:\Users\Ben\Documents\My Dropbox\Games and Prototypes\3D Game Project\Circuit\Circuit\Circuit\Circuit\bin\x86\Debug\Content\checkerboard_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>cube.fbx</Source>
+      <Name>cubef</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Ben\Documents\My Dropbox\Games and Prototypes\3D Game Project\Circuit\Circuit\Circuit\Circuit\bin\x86\Debug\Content\cubef.xnb</Output>
+      <Time>2012-06-27T14:46:21+02:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\cube_0.xml</Key>
+        <Value>2012-09-22T20:24:02.2718001+02:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Models\groundstone.dds</Source>
+      <Name>Models\groundstone</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Ben\Documents\My Dropbox\Games and Prototypes\3D Game Project\Circuit\Circuit\Circuit\Circuit\bin\x86\Debug\Content\Models\groundstone.xnb</Output>
+      <Time>2012-06-27T14:46:21+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\cubeDestroy\cube.jpg</Source>
+      <Name>Models\cubeDestroy\cube</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Ben\Documents\My Dropbox\Games and Prototypes\3D Game Project\Circuit\Circuit\Circuit\Circuit\bin\x86\Debug\Content\Models\cubeDestroy\cube.xnb</Output>
+      <Time>2012-06-27T14:46:21+02:00</Time>
+    </Item>
+    <Item>
+      <Source>checkerboard.jpg</Source>
+      <Name>checkerboard</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Ben\Documents\My Dropbox\Games and Prototypes\3D Game Project\Circuit\Circuit\Circuit\Circuit\bin\x86\Debug\Content\checkerboard.xnb</Output>
+      <Time>2012-06-27T14:46:21+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Arenas\NeutralArena\brick_normal_map.jpg</Source>
+      <Name>Arenas\NeutralArena\brick_normal_map</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Ben\Documents\My Dropbox\Games and Prototypes\3D Game Project\Circuit\Circuit\Circuit\Circuit\bin\x86\Debug\Content\Arenas\NeutralArena\brick_normal_map.xnb</Output>
+      <Time>2012-06-27T14:46:21+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Arenas\NeutralArena\brick_texture_map.jpg</Source>
+      <Name>Arenas\NeutralArena\brick_texture_map</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Ben\Documents\My Dropbox\Games and Prototypes\3D Game Project\Circuit\Circuit\Circuit\Circuit\bin\x86\Debug\Content\Arenas\NeutralArena\brick_texture_map.xnb</Output>
+      <Time>2012-06-27T14:46:21+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Programms\Delete\Red.png</Source>
+      <Name>Programms\Delete\Red</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Ben\Documents\My Dropbox\Games and Prototypes\3D Game Project\Circuit\Circuit\Circuit\Circuit\bin\x86\Debug\Content\Programms\Delete\Red.xnb</Output>
+      <Time>2012-07-11T15:15:12+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Arenas\NeutralArena\Skybox\Skybox_BACK.png</Source>
+      <Name>Arenas\NeutralArena\Skybox\Skybox_BACK</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Ben\Documents\My Dropbox\Games and Prototypes\3D Game Project\Circuit\Circuit\Circuit\Circuit\bin\x86\Debug\Content\Arenas\NeutralArena\Skybox\Skybox_BACK.xnb</Output>
+      <Time>2012-07-11T15:45:12+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Arenas\NeutralArena\Skybox\Skybox_BOTTOM.png</Source>
+      <Name>Arenas\NeutralArena\Skybox\Skybox_BOTTOM</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Ben\Documents\My Dropbox\Games and Prototypes\3D Game Project\Circuit\Circuit\Circuit\Circuit\bin\x86\Debug\Content\Arenas\NeutralArena\Skybox\Skybox_BOTTOM.xnb</Output>
+      <Time>2012-07-11T15:45:12+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Arenas\NeutralArena\Skybox\Skybox_FRONT.png</Source>
+      <Name>Arenas\NeutralArena\Skybox\Skybox_FRONT</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Ben\Documents\My Dropbox\Games and Prototypes\3D Game Project\Circuit\Circuit\Circuit\Circuit\bin\x86\Debug\Content\Arenas\NeutralArena\Skybox\Skybox_FRONT.xnb</Output>
+      <Time>2012-07-11T15:45:12+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Arenas\NeutralArena\Skybox\Skybox_LEFT.png</Source>
+      <Name>Arenas\NeutralArena\Skybox\Skybox_LEFT</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Ben\Documents\My Dropbox\Games and Prototypes\3D Game Project\Circuit\Circuit\Circuit\Circuit\bin\x86\Debug\Content\Arenas\NeutralArena\Skybox\Skybox_LEFT.xnb</Output>
+      <Time>2012-07-11T15:45:11+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Arenas\NeutralArena\Skybox\Skybox_RIGHT.png</Source>
+      <Name>Arenas\NeutralArena\Skybox\Skybox_RIGHT</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Ben\Documents\My Dropbox\Games and Prototypes\3D Game Project\Circuit\Circuit\Circuit\Circuit\bin\x86\Debug\Content\Arenas\NeutralArena\Skybox\Skybox_RIGHT.xnb</Output>
+      <Time>2012-07-11T15:45:11+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Arenas\NeutralArena\Skybox\Skybox_TOP.png</Source>
+      <Name>Arenas\NeutralArena\Skybox\Skybox_TOP</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Ben\Documents\My Dropbox\Games and Prototypes\3D Game Project\Circuit\Circuit\Circuit\Circuit\bin\x86\Debug\Content\Arenas\NeutralArena\Skybox\Skybox_TOP.xnb</Output>
+      <Time>2012-07-11T15:45:11+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Fonts\fps_font.spritefont</Source>
+      <Name>Fonts\fps_font</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Ben\Documents\My Dropbox\Games and Prototypes\3D Game Project\Circuit\Circuit\Circuit\Circuit\bin\x86\Debug\Content\Fonts\fps_font.xnb</Output>
+      <Time>2012-06-27T14:46:21+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Fonts\startMenuFont.spritefont</Source>
+      <Name>Fonts\startMenuFont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Ben\Documents\My Dropbox\Games and Prototypes\3D Game Project\Circuit\Circuit\Circuit\Circuit\bin\x86\Debug\Content\Fonts\startMenuFont.xnb</Output>
+      <Time>2012-06-27T14:46:21+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Effects\LightingEffect.fx</Source>
+      <Name>Effects\LightingEffect</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Ben\Documents\My Dropbox\Games and Prototypes\3D Game Project\Circuit\Circuit\Circuit\Circuit\bin\x86\Debug\Content\Effects\LightingEffect.xnb</Output>
+      <Time>2012-06-27T14:46:21+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Effects\NormalMapEffect.fx</Source>
+      <Name>Effects\NormalMapEffect</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Ben\Documents\My Dropbox\Games and Prototypes\3D Game Project\Circuit\Circuit\Circuit\Circuit\bin\x86\Debug\Content\Effects\NormalMapEffect.xnb</Output>
+      <Time>2012-06-27T14:46:21+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\cubeDestroy\cube_rounded.x</Source>
+      <Importer>XImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Models\cubeDestroy\cube_rounded_0.xml</Output>
+      <Time>2012-06-27T14:46:21+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\cubeDestroy\cube.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Ben\Documents\My Dropbox\Games and Prototypes\3D Game Project\Circuit\Circuit\Circuit\Circuit\bin\x86\Debug\Content\Models\cubeDestroy\cube_0.xnb</Output>
+      <Time>2012-06-27T14:46:21+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\cube\controller.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Models\cube\controller_0.xml</Output>
+      <Time>2012-06-27T14:46:21+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Arenas\NeutralArena\Base\playground.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Arenas\NeutralArena\Base\playground_0.xml</Output>
+      <Time>2012-07-06T22:34:35+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Programms\Delete\DeleteBaseModel.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Programms\Delete\DeleteBaseModel_0.xml</Output>
+      <Time>2012-07-11T15:16:49+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Programms\Delete\Red.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Ben\Documents\My Dropbox\Games and Prototypes\3D Game Project\Circuit\Circuit\Circuit\Circuit\bin\x86\Debug\Content\Programms\Delete\Red_0.xnb</Output>
+      <Time>2012-07-11T15:15:12+02:00</Time>
+    </Item>
+    <Item>
+      <Source>sphere.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\sphere_0.xml</Output>
+      <Time>2012-06-27T14:46:21+02:00</Time>
+    </Item>
+    <Item>
+      <Source>checkerboard.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Ben\Documents\My Dropbox\Games and Prototypes\3D Game Project\Circuit\Circuit\Circuit\Circuit\bin\x86\Debug\Content\checkerboard_0.xnb</Output>
+      <Time>2012-06-27T14:46:21+02:00</Time>
+    </Item>
+    <Item>
+      <Source>cube.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\cube_0.xml</Output>
+      <Time>2012-06-27T14:46:21+02:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>HiDef</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>C:\Users\Ben\Documents\My Dropbox\Games and Prototypes\3D Game Project\Circuit\Circuit\Circuit\CircuitContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Ben\Documents\My Dropbox\Games and Prototypes\3D Game Project\Circuit\Circuit\Circuit\Circuit\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Ben\Documents\My Dropbox\Games and Prototypes\3D Game Project\Circuit\Circuit\Circuit\CircuitContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Ben\Documents\My Dropbox\Games and Prototypes\3D Game Project\Circuit\Circuit\Circuit\Circuit\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2010-08-23T13:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2010-08-23T13:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2010-08-23T13:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2010-08-23T13:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2010-08-23T13:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2010-08-23T13:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2010-11-02T13:23:59.5190356+01:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>
